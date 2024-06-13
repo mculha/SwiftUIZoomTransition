@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIZoomTransitionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StockMarketView()
         }
     }
 }

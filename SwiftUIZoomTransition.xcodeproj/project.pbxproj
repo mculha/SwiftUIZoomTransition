@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E90C55412C1B8AC300DD8C92 /* SwiftUIZoomTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C55402C1B8AC300DD8C92 /* SwiftUIZoomTransitionApp.swift */; };
-		E90C55432C1B8AC300DD8C92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C55422C1B8AC300DD8C92 /* ContentView.swift */; };
+		E90C55432C1B8AC300DD8C92 /* StockMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C55422C1B8AC300DD8C92 /* StockMarketView.swift */; };
 		E90C55452C1B8AC400DD8C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90C55442C1B8AC400DD8C92 /* Assets.xcassets */; };
 		E90C55482C1B8AC400DD8C92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90C55472C1B8AC400DD8C92 /* Preview Assets.xcassets */; };
+		E9B95B1C2C1B8C1D00B9A565 /* StockMarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B95B1B2C1B8C0100B9A565 /* StockMarketViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E90C553D2C1B8AC300DD8C92 /* SwiftUIZoomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIZoomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90C55402C1B8AC300DD8C92 /* SwiftUIZoomTransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIZoomTransitionApp.swift; sourceTree = "<group>"; };
-		E90C55422C1B8AC300DD8C92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E90C55422C1B8AC300DD8C92 /* StockMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketView.swift; sourceTree = "<group>"; };
 		E90C55442C1B8AC400DD8C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90C55472C1B8AC400DD8C92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9B95B1B2C1B8C0100B9A565 /* StockMarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMarketViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		E90C553F2C1B8AC300DD8C92 /* SwiftUIZoomTransition */ = {
 			isa = PBXGroup;
 			children = (
+				E9B95B192C1B8BE800B9A565 /* Scene */,
+				E9B95B1A2C1B8BF100B9A565 /* Model */,
 				E90C55402C1B8AC300DD8C92 /* SwiftUIZoomTransitionApp.swift */,
-				E90C55422C1B8AC300DD8C92 /* ContentView.swift */,
 				E90C55442C1B8AC400DD8C92 /* Assets.xcassets */,
 				E90C55462C1B8AC400DD8C92 /* Preview Content */,
 			);
@@ -65,6 +68,30 @@
 				E90C55472C1B8AC400DD8C92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9B95B192C1B8BE800B9A565 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E9B95B1D2C1B8C3A00B9A565 /* StockMarket */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		E9B95B1A2C1B8BF100B9A565 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9B95B1D2C1B8C3A00B9A565 /* StockMarket */ = {
+			isa = PBXGroup;
+			children = (
+				E9B95B1B2C1B8C0100B9A565 /* StockMarketViewModel.swift */,
+				E90C55422C1B8AC300DD8C92 /* StockMarketView.swift */,
+			);
+			path = StockMarket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90C55432C1B8AC300DD8C92 /* ContentView.swift in Sources */,
+				E9B95B1C2C1B8C1D00B9A565 /* StockMarketViewModel.swift in Sources */,
+				E90C55432C1B8AC300DD8C92 /* StockMarketView.swift in Sources */,
 				E90C55412C1B8AC300DD8C92 /* SwiftUIZoomTransitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,12 +308,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoom.transition.SwiftUIZoomTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoom.transition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,12 +338,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zoom.transition.SwiftUIZoomTransition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoom.transition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct StockMarketView: View {
+    
+    @State private var viewModel: StockMarketViewModel = .init()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +23,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    StockMarketView()
 }
