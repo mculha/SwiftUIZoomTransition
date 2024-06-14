@@ -12,10 +12,16 @@ struct StockMarketView: View {
     @State private var viewModel: StockMarketViewModel = .init()
     
     var body: some View {
-        
-        List(viewModel.stocks) { stock in
-            StockRow(stock: stock)
+        NavigationStack(path: $viewModel.path) {
+            List(viewModel.stocks) { stock in
+                StockRow(stock: stock)
+                    .onTapGesture { viewModel.path.append(stock) }
+            }
         }
+        .navigationDestination(for: StockMarketModel.self) { model in
+            StockMarketDetailView(stock: model)
+        }
+        
     }
 }
 

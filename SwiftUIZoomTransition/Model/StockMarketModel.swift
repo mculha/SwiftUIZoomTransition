@@ -5,7 +5,7 @@
 //  Created by Melih Çulha on 13.06.2024.
 //
 
-struct StockMarketModel: Decodable, Identifiable {
+struct StockMarketModel: Decodable, Identifiable, Hashable {
     
     var id: String {
         return title

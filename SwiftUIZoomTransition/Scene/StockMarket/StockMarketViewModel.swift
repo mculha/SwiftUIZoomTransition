@@ -9,6 +9,7 @@ import SwiftUI
 
 @Observable final class StockMarketViewModel {
     
+    var path: NavigationPath = NavigationPath()
     let stocks: [StockMarketModel]
     
     init() {
