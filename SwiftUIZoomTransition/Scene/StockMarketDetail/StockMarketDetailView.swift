@@ -12,10 +12,27 @@ struct StockMarketDetailView: View {
     let stock: StockMarketModel
     
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Image(stock.image)
+                .resizable()
+                .frame(width: 150, height: 150)
+                .scaledToFit()
+            
+            VStack(alignment: .center, spacing: 10) {
+                Text(stock.title)
+                    .bold()
+                    .font(.system(size: 20))
+                    .multilineTextAlignment(.center)
+                
+                Text(stock.description)
+                    .font(.system(size: 14))
+                    .multilineTextAlignment(.center)
+            }
+        }
+        .padding(.horizontal, 20)
     }
 }
 
 #Preview {
-    StockMarketDetailView(stock: .init(title: "Dummy Title", description: "Dummy Description", image: "stock_market_1"))
+    StockMarketDetailView(stock: .init(id: 1, title: "Dummy Title", description: "Dummy Description", image: "stock_market_1"))
 }

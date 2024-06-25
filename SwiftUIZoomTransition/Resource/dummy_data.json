@@ -1,50 +1,60 @@
 [
   {
+    "id": 1,
     "title": "Market Update",
     "description": "The stock market witnessed significant movements today, with major indices showing mixed results. Technology stocks led the rally, with several companies reporting better-than-expected earnings. However, concerns over rising inflation and geopolitical tensions kept some investors on edge. Analysts recommend keeping a close eye on upcoming economic data releases, which could provide further insights into market trends. Overall, the market remains volatile, and investors are advised to stay informed and consider diversifying their portfolios to mitigate risks.",
     "image": "stock_market_1"
   },
   {
+    "id": 2,
     "title": "Tech Surge",
     "description": "Today's trading session was marked by a notable surge in technology stocks. Leading companies in the sector reported strong quarterly earnings, exceeding market expectations. This rally was driven by robust consumer demand and innovative product launches. Investors showed renewed confidence in the growth prospects of tech giants, propelling their stock prices to new highs. Despite this optimism, some experts caution that valuations are becoming stretched, and advise a cautious approach. The tech sector's performance will be closely monitored in the coming days as earnings season progresses.",
     "image": "stock_market_2"
   },
   {
+    "id": 3,
     "title": "Inflation Fears",
     "description": "Rising inflation continues to be a major concern for investors, as it poses a threat to economic stability and market performance. The latest data indicates that consumer prices have increased at the fastest pace in decades, driven by supply chain disruptions and higher demand. This has led to speculation about potential interest rate hikes by central banks, which could impact borrowing costs and corporate profits. Market participants are closely watching for signals from policymakers, as any changes in monetary policy could have significant implications for stock valuations and investor sentiment.",
     "image": "stock_market_3"
   },
   {
+    "id": 4,
     "title": "Energy Stocks",
     "description": "Energy stocks were in the spotlight today, as oil prices climbed higher on the back of strong global demand and supply constraints. The sector has seen a resurgence in recent months, with many companies reporting improved financial performance and higher dividends. Investors are optimistic about the long-term prospects for energy stocks, given the ongoing recovery in economic activity and the transition to cleaner energy sources. However, the sector remains sensitive to geopolitical developments and regulatory changes, which could affect future profitability. Staying informed about these factors is crucial for making informed investment decisions.",
     "image": "stock_market_4"
   },
   {
+    "id": 5,
     "title": "Retail Rally",
     "description": "Retail stocks experienced a significant rally today, driven by strong sales data and positive consumer sentiment. The reopening of economies and pent-up demand have boosted the performance of many retailers, leading to higher revenues and improved profitability. Market analysts are optimistic about the sector's prospects, highlighting the potential for further growth as consumer confidence remains robust. However, supply chain challenges and rising costs could pose headwinds. Investors are advised to monitor these developments closely and consider the impact on individual companies when making investment choices.",
     "image": "stock_market_5"
   },
   {
+    "id": 6,
     "title": "Banking Boost",
     "description": "The banking sector received a boost today, with several major banks reporting solid earnings and upbeat forecasts. Improved economic conditions and higher interest rates have contributed to better financial performance, as loan demand and net interest margins have increased. Investors are showing renewed interest in bank stocks, attracted by their attractive valuations and dividend yields. However, regulatory changes and potential credit risks remain areas of concern. As the financial landscape continues to evolve, staying updated on these factors will be key to navigating the sector successfully.",
     "image": "stock_market_6"
   },
   {
+    "id": 7,
     "title": "Health Gains",
     "description": "Healthcare stocks posted gains today, supported by strong earnings reports and positive developments in the pharmaceutical industry. The sector has been resilient throughout the pandemic, and continues to attract investor interest due to its defensive nature and growth potential. Recent advancements in medical research and innovative treatments have bolstered confidence in the sector's future prospects. Nonetheless, regulatory scrutiny and pricing pressures could impact profitability. Investors are encouraged to stay informed about these dynamics and consider the long-term potential of healthcare stocks in their portfolios.",
     "image": "stock_market_7"
   },
   {
+    "id": 8,
     "title": "Crypto Craze",
     "description": "Cryptocurrency-related stocks saw increased volatility today, reflecting the broader market's uncertainty about the future of digital assets. Despite recent price corrections, investor interest in cryptocurrencies remains high, driven by ongoing innovation and adoption in various sectors. Regulatory developments and security concerns continue to influence market sentiment, creating a complex landscape for investors. Those looking to invest in crypto-related stocks should be prepared for significant fluctuations and stay informed about industry trends and regulatory updates to make well-informed decisions.",
     "image": "stock_market_8"
   },
   {
+    "id": 9,
     "title": "Auto Sector",
     "description": "The automotive sector experienced mixed performance today, with electric vehicle (EV) manufacturers leading the gains. Strong demand for EVs, coupled with advancements in battery technology, has driven investor enthusiasm in this segment. Traditional automakers are also investing heavily in electric and autonomous vehicles, signaling a significant shift in the industry. However, supply chain disruptions and rising material costs remain challenges. Investors are advised to consider both the opportunities and risks associated with the sector, and to stay updated on technological and regulatory developments that could impact the market.",
     "image": "stock_market_9"
   },
   {
+    "id": 10,
     "title": "Travel Rebound",
     "description": "Travel and leisure stocks rebounded today, as optimism about the recovery of the tourism industry grew. Easing travel restrictions and increased vaccination rates have led to a surge in bookings and higher revenues for airlines, hotels, and cruise lines. Market analysts believe that the sector is poised for further growth, as pent-up demand for travel experiences is unleashed. However, the potential for new variants and changing travel policies could pose risks. Investors should monitor these factors and consider the long-term trends in the travel industry when making investment decisions.",
     "image": "stock_market_10"
